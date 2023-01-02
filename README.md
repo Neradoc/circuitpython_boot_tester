@@ -10,6 +10,6 @@ Feather RP2040:
 - 1320 ms boot time (including safe mode)
 
 Magtag:
-- 2445 ms boot time (including tinyuf2 and safe mode)
-- 1445 ms boot time without safe mode
+- 2450 ms boot time (including tinyuf2 and safe mode)
+- 1450 ms boot time without safe mode
 - 985 ms without tinyuf2 and safe mode
