@@ -13,3 +13,10 @@ Magtag:
 - 2450 ms boot time (including tinyuf2 and safe mode)
 - 1450 ms boot time without safe mode
 - 985 ms without tinyuf2 and safe mode
+
+# Modes
+
+Disabling safe mode is done by adding this line in `mpconfigboard.h`.
+```c
+#define CIRCUITPY_SKIP_SAFE_MODE_WAIT (1)
+```
