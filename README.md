@@ -16,7 +16,7 @@ Also note that `code.py` might run twice if the tested board is powered by a PC 
 
 You can use a power-only cable for the tested board, though I didn't get different timings despite the USB enumeration time. Since USB is not necessarily fully ready when code.py starts, that might be because it's done in parallel.
 
-# Tests
+# Test results
 
 In the files I connected power to A2, TX to TX and RX to RX.
 On the MagTag I used the Stemma QT port for power, SDA and SCL for output pins.
